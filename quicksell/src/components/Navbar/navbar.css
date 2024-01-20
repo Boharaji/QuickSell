@@ -1,0 +1,37 @@
+.nav-container {
+    height: 10vh;
+}
+
+.nav-display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.nav-display-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+.nav-display-btn-title {
+    margin: 0 0.2rem;
+}
+
+.nav-filter-container {
+    width: 15%;
+    background-color: red;
+    padding: 0.2rem;
+}
+
+.nav-grouping, .nav-ordering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
